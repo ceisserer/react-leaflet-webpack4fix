@@ -13,6 +13,7 @@ const targets = {
 
 module.exports = {
   presets: ['@babel/preset-react', '@babel/preset-typescript'],
+  plugins: ["@babel/plugin-proposal-nullish-coalescing-operator"],
   env: {
     development: {
       presets: [
